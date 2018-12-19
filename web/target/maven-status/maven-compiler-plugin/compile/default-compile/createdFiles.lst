@@ -1,0 +1,8 @@
+com/khalilpan/Config/webConfig.class
+com/khalilpan/service/GameServiceImpl.class
+com/khalilpan/WebMain.class
+com/khalilpan/Controller/GameController.class
+com/khalilpan/service/GameService.class
+com/khalilpan/Util/viewNames.class
+com/khalilpan/Util/AttributeNames.class
+com/khalilpan/Util/GameMappings.class

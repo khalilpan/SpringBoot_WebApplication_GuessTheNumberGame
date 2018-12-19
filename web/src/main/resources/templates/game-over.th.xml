@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#result-message-content"
+          th:text="${__${T(com.khalilpan.Util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#play-again"
+          th:href="@{__${T(com.khalilpan.Util.GameMappings).RESTART}__}"/>
+    <attr sel="#homeId"
+          th:href="@{__${T(com.khalilpan.Util.GameMappings).HOME}__}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>
